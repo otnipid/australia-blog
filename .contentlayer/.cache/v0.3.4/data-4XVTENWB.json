@@ -1,0 +1,28 @@
+{
+  "cacheItemsMap": {
+    "first-post.md": {
+      "document": {
+        "title": "Embarking on Our Australian Adventure",
+        "date": "2023-05-01T00:00:00.000Z",
+        "description": "Our decision to move from the U.S. to Australia and the initial steps of our journey.",
+        "body": {
+          "raw": "\n# Embarking on Our Australian Adventure\n\nAfter months of deliberation and planning, we've finally made the decision to move from the United States to Australia. This blog will document our journey, from the initial preparations to our eventual settlement in the Land Down Under.\n\n## Why Australia?\n\nAustralia has always held a special place in our hearts. The diverse landscapes, unique wildlife, and laid-back lifestyle have been calling to us for years. Additionally, the opportunity for career growth and a change of pace from our busy American lives made Australia an attractive destination.\n\n## Initial Steps\n\nOur first steps in this process have included:\n\n1. Researching visa options\n2. Exploring potential cities to live in\n3. Starting to declutter our home for the big move\n\nWe're excited about this new chapter in our lives and can't wait to share our experiences with you. Stay tuned for more updates as we navigate this exciting transition!",
+          "html": "<h1>Embarking on Our Australian Adventure</h1>\n<p>After months of deliberation and planning, we've finally made the decision to move from the United States to Australia. This blog will document our journey, from the initial preparations to our eventual settlement in the Land Down Under.</p>\n<h2>Why Australia?</h2>\n<p>Australia has always held a special place in our hearts. The diverse landscapes, unique wildlife, and laid-back lifestyle have been calling to us for years. Additionally, the opportunity for career growth and a change of pace from our busy American lives made Australia an attractive destination.</p>\n<h2>Initial Steps</h2>\n<p>Our first steps in this process have included:</p>\n<ol>\n<li>Researching visa options</li>\n<li>Exploring potential cities to live in</li>\n<li>Starting to declutter our home for the big move</li>\n</ol>\n<p>We're excited about this new chapter in our lives and can't wait to share our experiences with you. Stay tuned for more updates as we navigate this exciting transition!</p>"
+        },
+        "_id": "first-post.md",
+        "_raw": {
+          "sourceFilePath": "first-post.md",
+          "sourceFileName": "first-post.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "first-post"
+        },
+        "type": "Post",
+        "url": "/posts/first-post"
+      },
+      "documentHash": "1729186854661",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    }
+  }
+}

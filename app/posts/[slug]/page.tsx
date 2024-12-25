@@ -1,5 +1,5 @@
 import { allPosts } from '../../../.contentlayer/generated'
-import { getMDXComponent } from 'next-contentlayer/hooks'
+import { useMDXComponent } from 'next-contentlayer/hooks'
 import { notFound } from 'next/navigation'
 
 export const generateStaticParams = async () => allPosts.map((post) => ({ slug: post._raw.flattenedPath }))
@@ -14,7 +14,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
   const post = allPosts.find((post) => post._raw.flattenedPath === params.slug)
   if (!post) notFound()
 
-  const Content = getMDXComponent(post.body.code)
+  const MDXContent = useMDXComponent(post.body.raw)
 
   return (
     <article className="container mx-auto px-4 py-8 prose dark:prose-invert">
@@ -22,7 +22,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
       <time dateTime={post.date} className="text-sm text-gray-600 dark:text-gray-400">
         {new Date(post.date).toLocaleDateString()}
       </time>
-      <Content />
+      <MDXContent />
     </article>
   )
 }

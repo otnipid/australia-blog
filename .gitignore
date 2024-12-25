@@ -33,3 +33,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# contentlayer
+.contentlayer
+/content/cache
+
+# data
+*.csv
+*.json
+*.sqlite
+*.db
+/data/
+
+# logs
+*.log
+logs/

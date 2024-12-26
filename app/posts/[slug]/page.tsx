@@ -14,7 +14,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
   const post = allPosts.find((post) => post._raw.flattenedPath === params.slug)
   if (!post) notFound()
 
-  const MDXContent = useMDXComponent(post.body.raw)
+  const Component = useMDXComponent(post.body.code)
 
   return (
     <article className="container mx-auto px-4 py-8 prose dark:prose-invert">
@@ -22,7 +22,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
       <time dateTime={post.date} className="text-sm text-gray-600 dark:text-gray-400">
         {new Date(post.date).toLocaleDateString()}
       </time>
-      <MDXContent />
+      <Component />
     </article>
   )
 }

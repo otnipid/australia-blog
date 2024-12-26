@@ -16,8 +16,8 @@ export type Post = {
   title: string
   date: IsoDateTimeString
   description: string
-  /** Markdown file body */
-  body: Markdown
+  /** MDX file body */
+  body: MDX
   url: string
 }  
 
